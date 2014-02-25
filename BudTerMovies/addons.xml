@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.myfirstplugin"
+       name="BudTerMovies...XBMCHUB.COM"
+       version="1.0"
+       provider-name="bosanci">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BudTerMovies</summary>
+    <description lang="en">my first plugin description</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.YourRepo" name="BudTerMovies" version="1.0" provider-name="bosanci">
+	<extension point="xbmc.addon.repository" name="BudTerMovies Addon Repository">
+		<info compressed="false">http://github.com/bosanci/BudTerMovies/raw/master/addons.xml</info>
+		<checksum>http://github.com/bosanci/BudTerMovies/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://github.com/bosanci/BudTerMovies/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>BudTerMovies</summary>
+		<description>Download and install addons from BudTerMovies.......For OFFICIAL !! Support Visit XBMCHUB.COM</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
